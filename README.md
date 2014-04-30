@@ -1,4 +1,4 @@
-# Thomas Hunter's VIM Configuration
+# Modification of Thomas Hunter's VIM Configuration
 
 This Vim configuration is meant to be used to make Vim act more like an IDE. I use it mostly under MacVIM,
 so I make no guarantee for different environments. For now, I'm just planning on using github to make
@@ -27,13 +27,14 @@ below. Feel free to open as many buffers as you want, as if this were a normal I
 * Move between buffers in center screen
 * View status of the current GIT repo (if applicable)
 * Special features when running under MacVIM
+* Use of syntastic to actively check code
 
 ### Switching between files (Buffers)
 
 * Use _,q_ to close the current file (a different file will appear in its place)
 * Use _Ctrl h Ctrl l_ to move between open files
- * _Ctrl Left Ctrl Right_ also works for switching between files
- * While in MacVim, you can swipe left and right to switch between open files
+* _Ctrl Left Ctrl Right_ also works for switching between files
+* While in MacVim, you can swipe left and right to switch between open files
 
 ### Viewports (Windows)
 
@@ -67,7 +68,7 @@ below. Feel free to open as many buffers as you want, as if this were a normal I
 
 ## Requirements
 
-* Install ctags and configure on your Mac: http://thomashunter.name/blog/installing-vim-taglist-with-macvim-in-os-x/
+* Ctags must be installed. Use homebrew for mac
 
 ## Installation
 
@@ -75,8 +76,8 @@ Run these commands in your terminal to fully install this vim setup within OS X.
 tweaking to get it working under Linux.
 
     cd ~
-    git clone git://github.com/tlhunter/Vim-PHP-IDE.git .vim
+    git clone git://github.com/hanski07/vimConfig.git .vim
 
 ## Screenshots
 
-![Screenshot](http://thomashunter.name/pictures/macvim.png "Screenshot of MacVIM")
+![Screenshot](http://raw.github.com/hanski07/vimConfig/master/screenshots/vimInAction.png)
