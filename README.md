@@ -83,4 +83,5 @@ tweaking to get it working under Linux.
 
 ## Screenshots
 
+![Screenshot](http://raw.github.com/hanski07/vimConfig/master/screenshots/vimWithTagbarAndNerdTree.png)
 ![Screenshot](http://raw.github.com/hanski07/vimConfig/master/screenshots/vimInAction.png)
