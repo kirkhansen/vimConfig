@@ -77,6 +77,9 @@ tweaking to get it working under Linux.
 
     cd ~
     git clone git://github.com/hanski07/vimConfig.git .vim
+## Useful Leader Commands
+
+* ,b will clear search result highlighting
 
 ## Screenshots
 
