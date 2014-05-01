@@ -6,6 +6,13 @@ set history=500
 
 au FileType php set omnifunc=phpcomplete#CompletePHP
 
+"------ Remap movement keys for Colemak -----
+"noremap q h
+"noremap w j
+"noremap f k
+"noremap p l
+
+
 "------  Visual Options  ------
 set guioptions=egmt         "remove toolbar, scrollbars
 syntax on                   "Enables syntax highlighting
@@ -37,6 +44,9 @@ autocmd BufNewFile,BufRead *.coffee set filetype=coffee
 au BufWritePost *.coffee silent make!
 autocmd QuickFixCmdPost * nested cwindow | redraw!
 
+"------ Special Case Highlighting -------
+au BufNewFile,BufRead *.ejs set filetype=html
+au BufNewFile,BufRead *.less set filetype=css
 "------  Searching  ------
 set incsearch               "Search while typing
 set ignorecase              "Case Insensitive Searching
