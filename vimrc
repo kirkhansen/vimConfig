@@ -26,6 +26,10 @@ let g:buftabs_marker_modified = "+"
 " Map <F5> to turn spelling on (VIM 7.0+)
  map <F5> :setlocal spell! spelllang=en_us<cr>
 
+ "----- Enable ACP at Startup -----
+ let g:acp_enableAtStartup = 1
+ "noremap <silent> <Leader>a :AcpDisable<CR>
+
 "------  Behavior  ------
 set expandtab               "Use spaces instead of tabs
 set tabstop=4               "tab = 4 spaces
